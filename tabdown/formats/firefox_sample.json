@@ -1,0 +1,34 @@
+{
+  "name": "Evening Reading",
+  "selectedWindow": 1,
+  "windows": [
+    {
+      "tabs": [
+        {
+          "entries": [
+            {
+              "url": "https://www.mozilla.org",
+              "title": "Mozilla"
+            }
+          ]
+        },
+        {
+          "entries": [
+            {
+              "url": "https://developer.mozilla.org/en-US/",
+              "title": "MDN Web Docs"
+            }
+          ]
+        },
+        {
+          "entries": [
+            {
+              "url": "https://www.wikipedia.org",
+              "title": "Wikipedia"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

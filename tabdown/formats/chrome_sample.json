@@ -1,0 +1,38 @@
+{
+  "name": "Work Research",
+  "windows": [
+    {
+      "tabs": [
+        {
+          "title": "GitHub",
+          "group": "Dev",
+          "entries": [
+            {
+              "url": "https://github.com",
+              "title": "GitHub"
+            }
+          ]
+        },
+        {
+          "title": "Python Docs",
+          "group": "Dev",
+          "entries": [
+            {
+              "url": "https://docs.python.org/3/",
+              "title": "Python 3 Documentation"
+            }
+          ]
+        },
+        {
+          "title": "Hacker News",
+          "entries": [
+            {
+              "url": "https://news.ycombinator.com",
+              "title": "Hacker News"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
