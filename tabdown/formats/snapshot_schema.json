@@ -1,0 +1,42 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "TabdownSnapshot",
+  "description": "Schema for a tabdown snapshot file",
+  "type": "object",
+  "required": ["meta", "session"],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": ["name", "created_at", "tab_count", "group_count"],
+      "properties": {
+        "name": { "type": "string" },
+        "created_at": { "type": "string" },
+        "tab_count": { "type": "integer", "minimum": 0 },
+        "group_count": { "type": "integer", "minimum": 0 }
+      },
+      "additionalProperties": false
+    },
+    "session": {
+      "type": "object",
+      "required": ["name", "tabs"],
+      "properties": {
+        "name": { "type": "string" },
+        "tabs": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["title", "url"],
+            "properties": {
+              "title": { "type": "string" },
+              "url": { "type": "string", "format": "uri" },
+              "group": { "type": ["string", "null"] }
+            },
+            "additionalProperties": false
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
