@@ -1,0 +1,36 @@
+{
+  "type": "chrome",
+  "session_name": "Pinned Sample",
+  "tabs": [
+    {
+      "title": "GitHub",
+      "url": "https://github.com",
+      "group": null,
+      "pinned": true
+    },
+    {
+      "title": "Python Docs",
+      "url": "https://docs.python.org/3/",
+      "group": "Dev",
+      "pinned": true
+    },
+    {
+      "title": "Stack Overflow",
+      "url": "https://stackoverflow.com",
+      "group": "Dev",
+      "pinned": false
+    },
+    {
+      "title": "YouTube",
+      "url": "https://youtube.com",
+      "group": null,
+      "pinned": false
+    },
+    {
+      "title": "Hacker News",
+      "url": "https://news.ycombinator.com",
+      "group": "Reading",
+      "pinned": false
+    }
+  ]
+}
