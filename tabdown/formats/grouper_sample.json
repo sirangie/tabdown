@@ -1,0 +1,42 @@
+{
+  "browser": "chrome",
+  "session_name": "Grouper Sample",
+  "tabs": [
+    {
+      "url": "https://github.com/psf/black",
+      "title": "black - Python formatter",
+      "group": null,
+      "pinned": false
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff",
+      "title": "ruff - fast linter",
+      "group": null,
+      "pinned": false
+    },
+    {
+      "url": "https://stackoverflow.com/questions/1/how-to-python",
+      "title": "How to Python - Stack Overflow",
+      "group": null,
+      "pinned": false
+    },
+    {
+      "url": "https://docs.python.org/3/library/dataclasses.html",
+      "title": "dataclasses — Python 3 docs",
+      "group": null,
+      "pinned": false
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=12345",
+      "title": "Ask HN: Best Python tools",
+      "group": null,
+      "pinned": true
+    },
+    {
+      "url": "https://reddit.com/r/Python/comments/abc/cool_project",
+      "title": "Cool Python project - Reddit",
+      "group": null,
+      "pinned": false
+    }
+  ]
+}
