@@ -1,0 +1,36 @@
+{
+  "type": "chrome",
+  "session_name": "Scorer Sample",
+  "tabs": [
+    {
+      "title": "Python 3 Docs",
+      "url": "https://docs.python.org/3/",
+      "group": null,
+      "pinned": true
+    },
+    {
+      "title": "GitHub - python/cpython",
+      "url": "https://github.com/python/cpython",
+      "group": "Dev",
+      "pinned": false
+    },
+    {
+      "title": "Stack Overflow - python list comprehension",
+      "url": "https://stackoverflow.com/questions/python-list",
+      "group": "Research",
+      "pinned": false
+    },
+    {
+      "title": "YouTube - Python Tutorial",
+      "url": "https://www.youtube.com/watch?v=abc123",
+      "group": null,
+      "pinned": false
+    },
+    {
+      "title": "Hacker News",
+      "url": "https://news.ycombinator.com",
+      "group": null,
+      "pinned": false
+    }
+  ]
+}
