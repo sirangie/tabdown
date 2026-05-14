@@ -32,6 +32,11 @@ class GrouperResult:
     def group_count(self) -> int:
         return len(self.group_map)
 
+    @property
+    def tab_count(self) -> int:
+        """Total number of tabs across all groups."""
+        return sum(len(urls) for urls in self.group_map.values())
+
 
 def _extract_domain(url: str, strip_www: bool = True) -> str:
     try:
