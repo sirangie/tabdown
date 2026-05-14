@@ -1,0 +1,24 @@
+{
+  "type": "chrome",
+  "session_name": "Batch Sample A",
+  "tabs": [
+    {
+      "title": "Python Docs",
+      "url": "https://docs.python.org/3/",
+      "group": "Dev",
+      "pinned": false
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com",
+      "group": "Dev",
+      "pinned": false
+    },
+    {
+      "title": "Hacker News",
+      "url": "https://news.ycombinator.com",
+      "group": null,
+      "pinned": false
+    }
+  ]
+}
