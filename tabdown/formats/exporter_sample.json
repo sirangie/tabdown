@@ -1,0 +1,36 @@
+{
+  "type": "chrome",
+  "name": "Sample Export Session",
+  "tabs": [
+    {
+      "title": "Python Docs",
+      "url": "https://docs.python.org/3/",
+      "group": "Python",
+      "pinned": false
+    },
+    {
+      "title": "PyPI",
+      "url": "https://pypi.org",
+      "group": "Python",
+      "pinned": false
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com",
+      "group": "Dev Tools",
+      "pinned": true
+    },
+    {
+      "title": "Stack Overflow",
+      "url": "https://stackoverflow.com",
+      "group": "Dev Tools",
+      "pinned": false
+    },
+    {
+      "title": "Hacker News",
+      "url": "https://news.ycombinator.com",
+      "group": null,
+      "pinned": false
+    }
+  ]
+}
