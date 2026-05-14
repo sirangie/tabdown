@@ -1,0 +1,30 @@
+{
+  "browser": "chrome",
+  "created": "2024-05-01T10:00:00",
+  "tabs": [
+    {
+      "title": "GitHub",
+      "url": "https://github.com",
+      "group": "Dev",
+      "pinned": false
+    },
+    {
+      "title": "Stack Overflow",
+      "url": "https://stackoverflow.com/questions/12345",
+      "group": "Dev",
+      "pinned": false
+    },
+    {
+      "title": "YouTube",
+      "url": "https://youtube.com/watch?v=abc",
+      "group": "Media",
+      "pinned": false
+    },
+    {
+      "title": "Gmail",
+      "url": "https://mail.google.com",
+      "group": null,
+      "pinned": true
+    }
+  ]
+}
